@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Web Perdanaku</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="atas">
+    <div class="wadah">
+      <a class="logo" href="home.html">Web Perdanaku</a>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="profil.html">Profil</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="galery.html" class="aktif">Gallery</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wadah">
+      <h1 id="galeri">Gallery</h1>
+      <p class="intro">Beberapa momen yang sempat saya abadikan. Klik foto untuk memperbesar.</p>
+      <div class="galeri">
+        <figure class="lebar">
+          <a href="#kelas"><img src="kelas.jpg" alt="Bersama teman-teman" loading="lazy"></a>
+          <figcaption><strong>Bersama teman-teman</strong><span>Kebersamaan yang seru dan kompak</span></figcaption>
+        </figure>
+        <figure>
+          <a href="#gedung"><img src="gedung.jpg" alt="Menara bergaya kolonial" loading="lazy"></a>
+          <figcaption><strong>Menara bergaya kolonial</strong><span>Atap merah di antara pohon palem</span></figcaption>
+        </figure>
+        <figure>
+          <a href="#potret"><img src="potret.jpg" alt="Berfoto di taman" loading="lazy"></a>
+          <figcaption><strong>Berfoto di taman</strong><span>Santai berlatar tanaman hijau</span></figcaption>
+        </figure>
+        <figure class="penuh">
+          <a href="#monumen"><img src="monumen.jpg" alt="Monumen Perjuangan Rakyat Jawa Barat" loading="lazy"></a>
+          <figcaption><strong>Monumen Perjuangan Rakyat Jawa Barat</strong><span>Bangunan putih ikonik di Bandung</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="lightbox" id="kelas">
+        <a class="tutup" href="#galeri" aria-label="Tutup">&times;</a>
+        <a class="sebelum" href="#monumen" aria-label="Foto sebelumnya">&lsaquo;</a>
+        <img src="kelas.jpg" alt="Bersama teman-teman">
+        <p>Bersama teman-teman</p>
+        <a class="sesudah" href="#gedung" aria-label="Foto berikutnya">&rsaquo;</a>
+      </div>
+      <div class="lightbox" id="gedung">
+        <a class="tutup" href="#galeri" aria-label="Tutup">&times;</a>
+        <a class="sebelum" href="#kelas" aria-label="Foto sebelumnya">&lsaquo;</a>
+        <img src="gedung.jpg" alt="Menara bergaya kolonial">
+        <p>Menara bergaya kolonial</p>
+        <a class="sesudah" href="#potret" aria-label="Foto berikutnya">&rsaquo;</a>
+      </div>
+      <div class="lightbox" id="potret">
+        <a class="tutup" href="#galeri" aria-label="Tutup">&times;</a>
+        <a class="sebelum" href="#gedung" aria-label="Foto sebelumnya">&lsaquo;</a>
+        <img src="potret.jpg" alt="Berfoto di taman">
+        <p>Berfoto di taman</p>
+        <a class="sesudah" href="#monumen" aria-label="Foto berikutnya">&rsaquo;</a>
+      </div>
+      <div class="lightbox" id="monumen">
+        <a class="tutup" href="#galeri" aria-label="Tutup">&times;</a>
+        <a class="sebelum" href="#potret" aria-label="Foto sebelumnya">&lsaquo;</a>
+        <img src="monumen.jpg" alt="Monumen Perjuangan Rakyat Jawa Barat">
+        <p>Monumen Perjuangan Rakyat Jawa Barat</p>
+        <a class="sesudah" href="#kelas" aria-label="Foto berikutnya">&rsaquo;</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>&copy; 2026 Web Perdanaku &middot; <a href="home.html">Home</a> &middot; <a href="galery.html">Gallery</a> &middot; <a href="kontak.html">Kontak</a></footer>
+
+</body>
+</html>
